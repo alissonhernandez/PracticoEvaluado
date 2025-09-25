@@ -4,7 +4,8 @@ namespace app\controllers;
 class PerfilControler{
     public function index(){
         $data = ["title" => "Mi perfil", 
-        "descripcion" => "Mi nombre es Alisson Hernández, tengo 22 años y soy estudiante de ingenieria en sistemas informaticos."];
+        "nombre" => "Alisson Andrea Hernández Arias", "edad" => "22 anios",
+    "profesion" => "Estudiante de Ingenieria en Sistemas",];
         return $this->view("perfil", $data);
     }
 
